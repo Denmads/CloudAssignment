@@ -1,0 +1,19 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  frontend:
+    build: ./Frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+  backend:
+    build: ./Backend
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=development
+      - MONGO_DB_CONNECTION_STRING=mongodb+srv://PrimUser:cyTWYpBA3mJpERVg@cloudcluster.wo8v2t7.mongodb.net/?retryWrites=true&w=majority
+      - MONGO_DB_NAME=CloudCluster
+      - REDIS_URI=rediss://default:AVNS_a5VE29u0sID0RtgICxn@redis-server-student-e05a.aivencloud.com:13547
+      

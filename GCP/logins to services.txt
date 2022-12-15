@@ -1,0 +1,16 @@
+MongoDB-site
+U: madsj18@student.sdu.dk
+P: NewEngineer2018
+
+MongoDB-user
+U: PrimUser
+P: cyTWYpBA3mJpERVg
+
+Aiven
+U: madsj18@student.sdu.dk
+P: NewEngineer2018
+
+
+
+Google Maps API Key
+AIzaSyDMf9sJxfE5tUUmFWcNNCRdBlhWDcomqvU
